@@ -26,7 +26,7 @@
       <div class="row p-3 mb-2 bg-light text-dark">
         <p>You will be given a random number at the start of the game.</p>
         <p>
-          There are four crystal below. By clicking on a crystal you will add a
+          There are four crystals below. By clicking on a crystal you will add a
           specific amount of points to your total score!
         </p>
         <p>
@@ -41,10 +41,10 @@
 
       <container>
         <hr />
-        <img src="assets/images/ltbluegem.png" class="btn" width="271px" height="151px" />
-        <img src="assets/images/greygem.png" class="btn" width="271px" height="151px" />
-        <img src="assets/images/hotpinkgem.png" class="btn" width="271px" height="151px" />
-        <img src="assets/images/greengem.png" class="btn" width="271px" height="151px" />
+        <img src="assets/images/ltbluegem.png" id="blueGem" class="btn" width="271px" height="151px" />
+        <img src="assets/images/greygem.png" id ="greyGem" class="btn" width="271px" height="151px" />
+        <img src="assets/images/hotpinkgem.png" id = "pinkGem" class="btn" width="271px" height="151px" />
+        <img src="assets/images/greengem.png" id= "greenGem" class="btn" width="271px" height="151px" />
       </container>
 
       <hr />
@@ -63,7 +63,7 @@
           style="max-width: 18rem;"
         >
           <div class="card-header"> Score</div>
-          <div class="card-body">
+          <div class="card-body" id="totalScore">
             <h5 class="card-title"></h5>
           </div>
         </div>
@@ -74,7 +74,7 @@
           style="max-width: 18rem;"
         >
           <div class="card-header">Wins</div>
-          <div class="card-body">
+          <div class="card-body" id="wins">
             <h5 class="card-title"></h5>
           </div>
         </div>
@@ -83,7 +83,7 @@
           style="max-width: 18rem;"
         >
           <div class="card-header">Losses</div>
-          <div class="card-body">
+          <div class="card-body" id="losses">
             <h5 class="card-title"></h5>
           </div>
         </div>
